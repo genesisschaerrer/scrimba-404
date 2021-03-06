@@ -1,0 +1,142 @@
+/* .App {
+  text-align: center;
+  color: hsl(0, 0%, 96%);
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.test {
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.App-container {
+  width: 100vw;
+  height: 100%;
+}
+
+.blob-right {
+  position: absolute;
+  height: 70%;
+  top: 0;
+  right: 0;
+}
+
+.blob-left {
+  position: absolute;
+  width: 20%;
+  top: 0;
+  left: 0;
+}
+
+.blob-bottom {
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+  left: 100px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 320px;
+  height: 50px;
+  margin: 1em 0 0 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 35px;
+  cursor: pointer;
+}
+
+.scrimba {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin: 0 4px;
+  background-color: #f1b863;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 40px;
+  transition: 2s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #db9c3d;
+ 
+}
+
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  bottom: 35%;
+  left: 45%;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 27%;
+  left: 45%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.easter-egg-message {
+  position: absolute;
+  letter-spacing: 1px;
+  bottom: 22%;
+  left: 45%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
