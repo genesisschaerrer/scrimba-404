@@ -1,11 +1,9 @@
-.App {
+/* .App {
   text-align: center;
+  color: hsl(0, 0%, 96%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,6 +26,10 @@
   color: #61dafb;
 }
 
+.test {
+  color: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App{
+  width: 100vw;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.header{
+  position: absolute;
+  bottom: 35%;
+  right: 48%;
+  font-size: 5rem;
+  font-weight: 600;
 }
