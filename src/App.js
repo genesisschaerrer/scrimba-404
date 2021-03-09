@@ -3,6 +3,7 @@ import {useState} from "react"
 import './styles/App.css';
 
 import mainImage from "./images/scrimba-404.svg"
+import mainImageSmall from "./images/main-image-media-query.svg"
 import scrimbaLogo from "./images/logo.svg"
 import blobRight from "./images/blobs/blob-right.svg"
 import blobRightKevin from "./images/blobs/blob-right-kevin.svg"
@@ -29,8 +30,9 @@ function App() {
 
       <div className="image-container">
         <img src={mainImage} className="main-image" alt="404 page" />
+        <img src={mainImageSmall} className="main-image-small" alt="404 page" />
         <div className="header">Oops!</div>
-        <div className="subtitle">the page your looking for no longer exist</div>
+        <div className="subtitle">The page your looking for no longer exist</div>
         <div className="easter-egg-message">(unless your looking for a Kevin Powell easter egg... in that case, happy searching!)</div>
       </div>
    
